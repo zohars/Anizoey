@@ -1,0 +1,42 @@
+body {
+  background: #eac8c8 !important;
+  font-family: Impact !important;
+  font-size: 18px !important;
+  letter-spacing: .5px;
+}
+
+h1 {
+  font-size: 50px !important;
+  color: #304a50 !important;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+p {
+  color: #f8eded !important;
+  background: #422a24	!important;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+footer {
+  color: #304a50 !important;
+  margin: 20px 0px;
+}
+
+.colBGone {
+  padding: 10px 10px 30px 10px;
+  color: #c8d0ea;
+  background: #4c5267;
+  border-radius: 5px;
+}
+
+.colBGtwo {
+  padding: 10px 10px 30px 10px;
+  color: #c8d0ea;
+  background: #cfd4e2;
+  border-radius: 5px;
+}
