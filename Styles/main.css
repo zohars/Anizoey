@@ -1,46 +1,42 @@
 body {
-  margin: 0;
+  background: #eac8c8 !important;
+  font-family: Impact !important;
+  font-size: 18px !important;
+  letter-spacing: .5px;
 }
 
-header {
-  background: #999;
-  color: white;
-  padding: 10px 15px 0px 15px;
-}
-
-header h1 {
-  margin: 0;
-  display: inline;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0px 0px 0px 15px;
-  display: inline;
+h1 {
+  font-size: 50px !important;
+  color: #304a50 !important;
 }
 
 nav ul li {
-  background: black;
-  color: white;
-  display: inline-block;
   list-style-type: none;
-  padding: 5px 15px;
+  display: inline-block;
 }
 
-nav ul li a {
-  color: white;
+p {
+  color: #f8eded !important;
+  background: #422a24	!important;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-.row::after {
-  clear: both; content: "";display: table;
+footer {
+  color: #304a50 !important;
+  margin: 20px 0px;
 }
 
-.col {
-  background: #333;
+.colBGone {
+  padding: 10px 10px 30px 10px;
+  color: #c8d0ea;
+  background: #4c5267;
   border-radius: 5px;
-  color: #99ccff;
-  float: left;
-  padding: 10px .5%;
-  margin: .5%;
-  width: 31%;
+}
+
+.colBGtwo {
+  padding: 10px 10px 30px 10px;
+  color: #c8d0ea;
+  background: #cfd4e2;
+  border-radius: 5px;
 }
