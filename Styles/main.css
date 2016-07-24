@@ -8,9 +8,22 @@ body {
 h1 {
   font-size: 50px !important;
   color: #304a50 !important;
+  display: inline;
+  background: green;
 }
 
-nav ul li {
+nav {
+  background: red;
+  padding: 10px;
+  display: inline;
+}
+
+ul {
+  background: yellow;
+  display: inline;
+}
+
+li {
   list-style-type: none;
   display: inline-block;
 }
